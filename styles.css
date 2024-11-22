@@ -44,11 +44,15 @@
     cursor: pointer;
 }
 
+.hero-container {
+    padding: 40px 0;
+}
+
 .hero {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    padding: 35px 0;
+    /*padding: 35px 0;*/
 }
 
 .hero-txt h1 {
@@ -69,6 +73,7 @@
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .hero-btn {
@@ -77,8 +82,107 @@
     color: var(--second-txt);
     margin: 10px 0;
 }
+.hero-btn:hover {
+    background-color: #ffffff;
+    color: var(--btn);
+}
 
 #hero-img {
     width: 900px;
     height: 300px;
+    object-fit: cover;
+}
+
+.info-container {
+    padding: 20px 0;
+}
+
+.info-heading {
+    color: var(--dark-bg);
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.info-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid var(--btn);
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px auto;
+}
+
+.card {
+    width: 250px;
+    text-align: center;
+}
+
+.quote-container {
+    padding: 40px 0;
+    background-color: var(--second-txt);
+}
+
+.quote {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.phrase {
+    color: var(--dark-bg);
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.source {
+    font-weight: 700;
+    text-align: end;
+}
+
+.cta-container {
+    padding: 20px 0;
+}
+
+.cta {
+    background-color: var(--btn);
+    color: #ffffff;
+    padding: 35px 50px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cta-txt h3 {
+    margin-bottom: 5px;
+}
+
+.cta-btn {
+    border: 2px solid #ffffff;
+    background-color: var(--btn);
+    color: #ffffff;
+}
+.cta-btn:hover {
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    color: var(--btn);
+}
+
+.footer-container {
+    padding: 35px 0;
+    background-color: var(--dark-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--second-txt);
 }
